@@ -1,0 +1,25 @@
+<!-- templates/about.html -->
+{% extends "layout.html" %}
+
+{% block title %}Acerca de - Vacunación{% endblock %}
+
+{% block content %}
+<h2>Acerca de la Aplicación de Vacunación</h2>
+<p>Esta aplicación web fue desarrollada para proporcionar acceso fácil y rápido a los datos históricos de vacunación contra el sarampión en niños de 12-23 meses en Panamá. Los datos son almacenados y gestionados usando Redis, y la interfaz está construida con Flask y Jinja2.</p>
+
+<h3>Objetivos</h3>
+<ul>
+    <li>Facilitar el acceso a los datos de vacunación.</li>
+    <li>Promover la transparencia en los datos de salud pública.</li>
+    <li>Apoyar la investigación y análisis de datos sobre la vacunación.</li>
+</ul>
+
+<h3>Tecnologías Utilizadas</h3>
+<p>Las tecnologías principales usadas en esta aplicación incluyen:</p>
+<ul>
+    <li>Flask: Un micro framework de Python para el desarrollo web.</li>
+    <li>Redis: Una base de datos en memoria que ofrece almacenamiento rápido de datos.</li>
+    <li>Jinja2: Un motor de plantillas para Python, utilizado para construir las vistas de la aplicación.</li>
+</ul>
+
+{% endblock %}
